@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <title>Timothy Ogory | Backend Engineer Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body class="bg-[#0f172a] text-slate-100 font-sans pt-24">
+
+    <!-- FIXED GLASS NAVBAR -->
+    <nav class="fixed top-0 left-0 w-full z-50 bg-white/10 backdrop-blur-lg border-b border-white/10 shadow-lg">
+        <div class="flex items-center justify-between max-w-6xl mx-auto px-6 py-4">
+
+            <!-- Profile Image with floating animation -->
+            <div class="animate-bounce">
+                <img src="/src/assests/images/179052804.jpeg"
+                     alt="Timothy Ogory"
+                     class="w-14 h-14 object-cover rounded-full border border-slate-700">
+            </div>
+
+            <!-- Animated underline links -->
+            <div class="space-x-8 text-slate-300 font-medium">
+                <a href="#about" class="relative hover:text-blue-400 transition after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-blue-400 after:transition-all hover:after:w-full">About</a>
+                <a href="#skills" class="relative hover:text-blue-400 transition after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-blue-400 after:transition-all hover:after:w-full">Skills</a>
+                <a href="#projects" class="relative hover:text-blue-400 transition after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-blue-400 after:transition-all hover:after:w-full">Projects</a>
+                <a href="#contact" class="relative hover:text-blue-400 transition after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-blue-400 after:transition-all hover:after:w-full">Contact</a>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- ABOUT -->
+    <header id="about" class="bg-[#111827] py-20 border-b border-slate-800">
+        <div class="max-w-4xl mx-auto text-center px-6 animate-fadeIn">
+            <h1 class="text-4xl font-bold mb-4 text-white animate-pulse">
+                Hi, I'm Timothy Ogory
+            </h1>
+            <p class="text-xl text-slate-400">
+                Backend Engineer | En route to Full-Stack | Exploring AI & Blockchain
+            </p>
+        </div>
+    </header>
+
+    <!-- SKILLS -->
+    <section id="skills" class="py-16">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-8 text-center text-blue-500">
+                Skills
+            </h2>
+
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-6 text-center">
+                <div class="p-4 bg-[#111827] rounded-lg border border-slate-800 hover:border-blue-500 hover:-translate-y-2 hover:scale-105 transition duration-300">Python</div>
+                <div class="p-4 bg-[#111827] rounded-lg border border-slate-800 hover:border-blue-500 hover:-translate-y-2 hover:scale-105 transition duration-300">SQL / MySQL</div>
+                <div class="p-4 bg-[#111827] rounded-lg border border-slate-800 hover:border-blue-500 hover:-translate-y-2 hover:scale-105 transition duration-300">RESTful API</div>
+                <div class="p-4 bg-[#111827] rounded-lg border border-slate-800 hover:border-blue-500 hover:-translate-y-2 hover:scale-105 transition duration-300">Docker</div>
+                <div class="p-4 bg-[#111827] rounded-lg border border-slate-800 hover:border-blue-500 hover:-translate-y-2 hover:scale-105 transition duration-300">Git</div>
+                <div class="p-4 bg-[#111827] rounded-lg border border-slate-800 hover:border-blue-500 hover:-translate-y-2 hover:scale-105 transition duration-300">JWT</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="py-16 bg-[#111827]">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-12 text-center text-blue-500">
+                Projects
+            </h2>
+
+            <div class="bg-[#0f172a] p-6 rounded-lg border border-slate-800 hover:border-white hover:shadow-2xl hover:scale-[1.02] transition duration-300">
+                <h3 class="text-2xl font-semibold mb-2 text-white">
+                    Pharmacy Inventory System (Wellspring)
+                </h3>
+
+                <p class="mb-4 text-slate-400">
+                    A backend system for managing pharmacy products, stock levels,
+                    expiration alerts, and sales.
+                </p>
+
+                <p class="mb-4 text-slate-300">
+                    <strong class="text-emerald-400">Technologies:</strong>
+                    Python, MySQL, Docker, RESTful API, Git
+                </p>
+
+                <a href="https://github.com/timo10thy/wellspring"
+                   target="_blank"
+                   class="text-blue-500 hover:text-blue-400 font-semibold transition hover:underline">
+                    View on GitHub →
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="py-16">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-8 text-blue-500">
+                Contact Me
+            </h2>
+
+            <p class="mb-4 text-slate-400 hover:text-white transition">
+                Email:
+                <a href="mailto:timothyogory@gmail.com"
+                   class="text-blue-500 hover:text-blue-300">
+                   timothyogory@gmail.com
+                </a>
+            </p>
+
+            <p class="mb-4 text-slate-400 hover:text-white transition">
+                GitHub:
+                <a href="https://github.com/timo10thy"
+                   class="text-blue-500 hover:text-blue-300">
+                   github.com/timo10thy
+                </a>
+            </p>
+
+            <p class="mb-4 text-slate-400 hover:text-white transition">
+                X:
+                <a href="https://x.com/OgoryTimothy"
+                   class="text-blue-500 hover:text-blue-300">
+                   x.com/OgoryTimothy
+                </a>
+            </p>
+        </div>
+    </section>
+
+    <footer class="py-6 bg-[#111827] border-t border-slate-800 text-slate-400 text-center">
+        © 2026 Timothy Ogory. All rights reserved.
+    </footer>
+
+</body>
+</html>
